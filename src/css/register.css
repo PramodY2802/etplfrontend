@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to bottom, #0fcae3, #88b3a6);
+    min-height: 94vh;
+    margin: 0;
+}
+
+h3 {
+    background-color: rgb(173, 132, 28);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -20px; 
+    padding: 10px;
+    position: relative;
+    top: -20px;
+}
+
+.card1 {
+    background: url('https://yt3.googleusercontent.com/Mo1o21UW_1lsIjcSrf-p33ZJucTqabFk2ylXOx579xMo-SCvxNW6z6saQ6GxOJTBmYQ4AdypYrM=s900-c-k-c0x00ffffff-no-rj') no-repeat center center;
+    background-size: cover;
+    width: 80%;
+     max-width: 600px;
+    padding: 40px;
+     border-radius: 10px; 
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+   
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent input backgrounds */
+    color: #000;
+    border-radius: 10px; /* Add border radius */
+    height: 55px; /* Adjust the height */
+    width: 60%; /* Set width to 70% */
+    margin: 0 auto; /* Center the input boxes */
+}
+
+.input-group-text {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for input icons */
+    border-radius: 10px 0 0 10px; /* Add border radius */
+}
+
+.btn-primary {
+    background: #2cc256;
+    border: none;
+    border-radius: 10px; 
+    height: 45px; 
+    width: 60%; 
+    margin: 0 auto; 
+}
+
+.btn-primary:hover {
+    background: #c70ebb;
+}
+
+.input-group-prepend .input-group-text {
+    border-radius: 10px 0 0 10px;
+}
